@@ -1,0 +1,175 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background: #FFFFFF;
+	font-family: ;
+	text-align: justify; 
+}
+
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after{
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+.resume-container{
+	width: 840px;
+	margin: 0 auto;
+	background:#E1D6D6;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  	
+	
+	/*padding-left: 20px;
+	padding-right:20px;*/
+}
+
+.right{
+	width: 250px;
+	float: right;
+}
+
+.left{
+	width: 555px;
+	float: left;
+}
+/*.group{clear: both;}*/
+.margin-box{
+	/*height: 220px;*/
+	margin-top: -100px;
+	box-shadow: 
+}
+img#logo{
+	float: left;
+	margin-right: 20px;
+}
+.my-detail-1{
+	float: left;
+}
+.my-social-2{
+	float: right;
+	/*text-align:  right;*/
+}
+
+.detail{
+	padding:60px 20px 60px 20px;
+	/*float: left;*/
+ }
+.my-detail-1 h1{
+	margin-bottom: 5px;
+	font-weight: bolder;
+	font-size: 2.5rem;
+	word-spacing: 5px;
+	letter-spacing: 5px;
+
+}
+.my-detail-1 h4{
+	margin-bottom: 15px;
+	font-size: 1.5rem;
+	letter-spacing: 2px;
+}
+.my-detail-1 p{
+	margin-bottom: 5px;
+	font-size: 1rem;
+	letter-spacing: 1px;
+}
+.my-social-2 li{
+	margin-bottom: 20px;
+}
+.main-body{
+	/*padding: 30px;*/
+}
+.summary,.head-resume-container{
+	margin-bottom: 30px;
+}
+.summary p{
+	text-align: left;
+	font-size: 1.07rem;
+	line-height: 1.5;
+	/*font-weight: 500;*/
+}
+.main-body h2{
+	font-size: 25px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+	text-transform: uppercase;
+}
+.main-body h4{
+	font-size: 17px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	/*padding-bottom: 10px;*/
+	/*border-bottom: 2px solid black;*/
+	text-transform: uppercase;
+}
+.dab ul li{
+	margin-bottom: 10px;
+	font-size: .86rem;
+}
+progress{
+	display: block;
+	margin-top: 2px;
+}
+.dab-2 ul li{
+	display: inline-block;
+	background: #F5F0F0;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	/*margin-right: 10px;*/
+
+}
+h3{
+	font-size: 1.125rem;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	line-height: 1.2;
+	/*border-bottom: 2px solid black;*/
+	text-transform: uppercase;
+}
+.work-title h3{
+	margin: 0 0 10px 0; 
+	float: left;
+	
+}
+
+.work-title .align-text{
+	text-align:  right;
+
+}
+.work-title .group{
+	margin: 0 0 10px 0; 
+}
+.achive-block  {
+	margin: 10px;
+	padding-left: 40px; 
+	list-style: square;
+}
+.achive-block li{
+	margin-bottom: 5px;
+}
+.tech-list li,.skills-others li{
+	display: inline-block;
+	
+
+}
